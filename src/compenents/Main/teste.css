@@ -1,3 +1,6 @@
 .Barra{
     background-image: linear-gradient() to right, #8144a6, #36224f ;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
 }

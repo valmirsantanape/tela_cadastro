@@ -1,5 +1,6 @@
 import { Header } from "../compenents/Header";
 import Main from "../compenents/Main";
+import { Form } from "../Formulario";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <Main>
 
     </Main>
+    
   </>);
 }
 

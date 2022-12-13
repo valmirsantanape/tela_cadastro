@@ -3,11 +3,15 @@ import styled from "styled-components";
 
 export const MainContainer = styled.div `
     display: flex;
-    flex-direction: column;
-    padding: 20px;
-
-
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 100px;
+    width: auto;
     color: #FAFAFA;
+
+    @media (min-width: 1026px){
+        flex-wrap: nowrap;
+    }
 `
 
 export const Barra = styled.div `
@@ -15,14 +19,14 @@ export const Barra = styled.div `
     width: 100px;
     height: 10px;
     border-radius: 1rem;
-    margin: 20px 0;
+    margin: 40px 0;
 
 `
 
 
 export const TextContainer = styled.div `
     color: #FAFAFA;
-    width: 500px;
+    max-width: 300px;
     font-size: 30px;
     h3{
         font-size: ;

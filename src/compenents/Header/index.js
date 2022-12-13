@@ -23,7 +23,7 @@ export const Header = () => {
         <Row>
             <Logo src={logo}></Logo>
             
-            <Input />
+            
 
             
             <Menu>Live Code</Menu>
